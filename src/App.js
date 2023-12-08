@@ -20,7 +20,7 @@ const App = () => {
     <Route path='/partner-with-us'   element={<AddRestro/>}/>
     <Route path='/view-food'   element={<ViewFood/>}/>
 
-    <h1>hello</h1>
+    
     </Routes>
     </div>
   )
