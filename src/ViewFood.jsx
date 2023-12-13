@@ -12,7 +12,8 @@ const ViewFood = () => {
     }
 
 
-    const fun2=()=>{
+    const fun2=(e)=>{
+      e.preventDefault()
       let newR=arr.filter((str)=>{
         return str.text===data
       })
